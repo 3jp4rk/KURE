@@ -1,0 +1,169 @@
+  0%|                                                                                | 0/940 [00:00<?, ?it/s]/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:2906: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+                                                                                                             
+{'loss': 2.1582, 'grad_norm': 4.213387966156006, 'learning_rate': 1.0000000000000001e-07, 'epoch': 0.01}
+{'loss': 2.139, 'grad_norm': 2.3350329399108887, 'learning_rate': 2.0000000000000002e-07, 'epoch': 0.01}
+{'loss': 2.1755, 'grad_norm': 5.215556621551514, 'learning_rate': 3.0000000000000004e-07, 'epoch': 0.02}
+{'loss': 2.1589, 'grad_norm': 3.451042890548706, 'learning_rate': 4.0000000000000003e-07, 'epoch': 0.02}
+{'loss': 2.1668, 'grad_norm': 3.879819869995117, 'learning_rate': 5.000000000000001e-07, 'epoch': 0.03}
+{'loss': 2.169, 'grad_norm': 36.380916595458984, 'learning_rate': 6.000000000000001e-07, 'epoch': 0.03}
+{'loss': 2.156, 'grad_norm': 28.99471664428711, 'learning_rate': 7.000000000000001e-07, 'epoch': 0.04}
+{'loss': 2.1497, 'grad_norm': 2.738452672958374, 'learning_rate': 8.000000000000001e-07, 'epoch': 0.04}
+{'loss': 2.1927, 'grad_norm': 4.672687530517578, 'learning_rate': 9.000000000000001e-07, 'epoch': 0.05}
+{'loss': 2.1139, 'grad_norm': 3.2707011699676514, 'learning_rate': 1.0000000000000002e-06, 'epoch': 0.05}
+{'loss': 2.158, 'grad_norm': 2.890961170196533, 'learning_rate': 1.1e-06, 'epoch': 0.06}
+{'loss': 2.1268, 'grad_norm': 4.3361334800720215, 'learning_rate': 1.2000000000000002e-06, 'epoch': 0.06}
+{'loss': 2.1441, 'grad_norm': 16.481060028076172, 'learning_rate': 1.3e-06, 'epoch': 0.07}
+{'loss': 2.1415, 'grad_norm': 3.624500036239624, 'learning_rate': 1.4000000000000001e-06, 'epoch': 0.07}
+{'loss': 2.12, 'grad_norm': 3.15185809135437, 'learning_rate': 1.5e-06, 'epoch': 0.08}
+{'loss': 2.1582, 'grad_norm': 4.926013469696045, 'learning_rate': 1.6000000000000001e-06, 'epoch': 0.09}
+{'loss': 2.082, 'grad_norm': 8.015609741210938, 'learning_rate': 1.7000000000000002e-06, 'epoch': 0.09}
+{'loss': 2.1523, 'grad_norm': 8.789700508117676, 'learning_rate': 1.8000000000000001e-06, 'epoch': 0.1}
+{'loss': 2.1152, 'grad_norm': 10.310663223266602, 'learning_rate': 1.9000000000000002e-06, 'epoch': 0.1}
+{'loss': 2.0626, 'grad_norm': 8.01392650604248, 'learning_rate': 2.0000000000000003e-06, 'epoch': 0.11}
+{'loss': 2.1128, 'grad_norm': 5.1605682373046875, 'learning_rate': 2.1000000000000002e-06, 'epoch': 0.11}
+{'loss': 2.0233, 'grad_norm': 6.449032306671143, 'learning_rate': 2.2e-06, 'epoch': 0.12}
+{'loss': 2.075, 'grad_norm': 5.720237731933594, 'learning_rate': 2.3000000000000004e-06, 'epoch': 0.12}
+{'loss': 2.034, 'grad_norm': 15.06042194366455, 'learning_rate': 2.4000000000000003e-06, 'epoch': 0.13}
+{'loss': 2.0026, 'grad_norm': 11.254903793334961, 'learning_rate': 2.5e-06, 'epoch': 0.13}
+{'loss': 1.9987, 'grad_norm': 11.345545768737793, 'learning_rate': 2.6e-06, 'epoch': 0.14}
+{'loss': 1.9294, 'grad_norm': 14.141845703125, 'learning_rate': 2.7000000000000004e-06, 'epoch': 0.14}
+{'loss': 1.9252, 'grad_norm': 21.659366607666016, 'learning_rate': 2.8000000000000003e-06, 'epoch': 0.15}
+{'loss': 1.9138, 'grad_norm': 34.77956771850586, 'learning_rate': 2.9e-06, 'epoch': 0.15}
+{'loss': 1.8845, 'grad_norm': 28.396251678466797, 'learning_rate': 3e-06, 'epoch': 0.16}
+{'loss': 1.6616, 'grad_norm': 27.933088302612305, 'learning_rate': 3.1000000000000004e-06, 'epoch': 0.16}
+{'loss': 1.6709, 'grad_norm': 96.38580322265625, 'learning_rate': 3.2000000000000003e-06, 'epoch': 0.17}
+{'loss': 1.5287, 'grad_norm': 34.569305419921875, 'learning_rate': 3.3000000000000006e-06, 'epoch': 0.18}
+{'loss': 1.5445, 'grad_norm': 37.37339401245117, 'learning_rate': 3.4000000000000005e-06, 'epoch': 0.18}
+{'loss': 1.3994, 'grad_norm': 47.70321273803711, 'learning_rate': 3.5e-06, 'epoch': 0.19}
+{'loss': 1.1355, 'grad_norm': 32.815086364746094, 'learning_rate': 3.6000000000000003e-06, 'epoch': 0.19}
+{'loss': 1.5049, 'grad_norm': 174.24044799804688, 'learning_rate': 3.7e-06, 'epoch': 0.2}
+{'loss': 1.4821, 'grad_norm': 148.5186767578125, 'learning_rate': 3.8000000000000005e-06, 'epoch': 0.2}
+{'loss': 2.1686, 'grad_norm': 149.45602416992188, 'learning_rate': 3.900000000000001e-06, 'epoch': 0.21}
+{'loss': 1.3214, 'grad_norm': 330.16058349609375, 'learning_rate': 4.000000000000001e-06, 'epoch': 0.21}
+{'loss': 1.6899, 'grad_norm': 107.59397888183594, 'learning_rate': 4.1e-06, 'epoch': 0.22}
+{'loss': 1.4823, 'grad_norm': 124.46348571777344, 'learning_rate': 4.2000000000000004e-06, 'epoch': 0.22}
+{'loss': 1.2521, 'grad_norm': 135.67759704589844, 'learning_rate': 4.3e-06, 'epoch': 0.23}
+{'loss': 1.4776, 'grad_norm': 372.3481750488281, 'learning_rate': 4.4e-06, 'epoch': 0.23}
+{'loss': 2.0703, 'grad_norm': 248.11778259277344, 'learning_rate': 4.5e-06, 'epoch': 0.24}
+{'loss': 1.2365, 'grad_norm': 515.9818725585938, 'learning_rate': 4.600000000000001e-06, 'epoch': 0.24}
+{'loss': 1.4713, 'grad_norm': 438.2304992675781, 'learning_rate': 4.7e-06, 'epoch': 0.25}
+{'loss': 1.6912, 'grad_norm': 254.5493927001953, 'learning_rate': 4.800000000000001e-06, 'epoch': 0.26}
+{'loss': 1.0952, 'grad_norm': 223.22232055664062, 'learning_rate': 4.9000000000000005e-06, 'epoch': 0.26}
+{'loss': 0.8055, 'grad_norm': 183.8315887451172, 'learning_rate': 5e-06, 'epoch': 0.27}
+{'loss': 1.3825, 'grad_norm': 755.5237426757812, 'learning_rate': 5.1e-06, 'epoch': 0.27}
+{'loss': 1.0146, 'grad_norm': 839.28955078125, 'learning_rate': 5.2e-06, 'epoch': 0.28}
+{'loss': 1.4616, 'grad_norm': 97.12985229492188, 'learning_rate': 5.300000000000001e-06, 'epoch': 0.28}
+{'loss': 1.4412, 'grad_norm': 147.43226623535156, 'learning_rate': 5.400000000000001e-06, 'epoch': 0.29}
+{'loss': 1.3034, 'grad_norm': 80.56448364257812, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.29}
+{'loss': 1.3815, 'grad_norm': 114.353515625, 'learning_rate': 5.600000000000001e-06, 'epoch': 0.3}
+{'loss': 1.1155, 'grad_norm': 44.426109313964844, 'learning_rate': 5.7e-06, 'epoch': 0.3}
+{'loss': 1.0742, 'grad_norm': 57.551025390625, 'learning_rate': 5.8e-06, 'epoch': 0.31}
+{'loss': 1.1327, 'grad_norm': 61.382568359375, 'learning_rate': 5.9e-06, 'epoch': 0.31}
+{'loss': 0.9489, 'grad_norm': 30.7342529296875, 'learning_rate': 6e-06, 'epoch': 0.32}
+{'loss': 1.18, 'grad_norm': 105.58367919921875, 'learning_rate': 6.1e-06, 'epoch': 0.32}
+{'loss': 1.4375, 'grad_norm': 367.0832824707031, 'learning_rate': 6.200000000000001e-06, 'epoch': 0.33}
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 137, in <module>
+    main()
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 132, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 34, in compute_loss
+    output = model(**input_dict)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 834, in forward
+    encoder_outputs = self.encoder(
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 522, in forward
+    layer_outputs = layer_module(
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 411, in forward
+    self_attention_outputs = self.attention(
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 338, in forward
+    self_outputs = self.self(
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 267, in forward
+    context_layer = torch.matmul(attention_probs, value_layer)
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 137, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 132, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs)
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 34, in compute_loss
+[rank0]:     output = model(**input_dict)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank0]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank0]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 834, in forward
+[rank0]:     encoder_outputs = self.encoder(
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 522, in forward
+[rank0]:     layer_outputs = layer_module(
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 411, in forward
+[rank0]:     self_attention_outputs = self.attention(
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 338, in forward
+[rank0]:     self_outputs = self.self(
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 267, in forward
+[rank0]:     context_layer = torch.matmul(attention_probs, value_layer)
+[rank0]: KeyboardInterrupt

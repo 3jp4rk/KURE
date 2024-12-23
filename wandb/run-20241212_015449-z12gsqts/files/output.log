@@ -1,0 +1,56 @@
+  0%|                                                                            | 0/58195 [00:00<?, ?it/s]/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:2906: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+  0%|                                                                 | 1/58195 [00:02<35:01:17,  2.17s/it]Traceback (most recent call last):
+{'loss': 0.1775, 'grad_norm': 11.346282958984375, 'learning_rate': 1.0000000000000001e-07, 'epoch': 0.0}
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 137, in <module>
+    main()
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 132, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 34, in compute_loss
+    output = model(**input_dict)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1639, in forward
+    inputs, kwargs = self._pre_forward(*inputs, **kwargs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1528, in _pre_forward
+    if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by
+making sure all `forward` function outputs participate in calculating loss.
+If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+Parameter indices which did not receive grad for rank 0: 389 390
+ In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 137, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 132, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs)
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 34, in compute_loss
+[rank0]:     output = model(**input_dict)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1639, in forward
+[rank0]:     inputs, kwargs = self._pre_forward(*inputs, **kwargs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1528, in _pre_forward
+[rank0]:     if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+[rank0]: RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by
+[rank0]: making sure all `forward` function outputs participate in calculating loss.
+[rank0]: If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+[rank0]: Parameter indices which did not receive grad for rank 0: 389 390
+[rank0]:  In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error

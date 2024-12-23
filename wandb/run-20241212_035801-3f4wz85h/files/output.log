@@ -1,0 +1,30 @@
+  0%|                                                                              | 0/58195 [00:00<?, ?it/s]/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:2906: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 137, in <module>
+    main()
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 132, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/ubuntu/ejpark/koe5_train/train.py", line 31, in compute_loss
+    'token_type_ids': t.zeros_like(input_ids)
+NameError: name 't' is not defined
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 137, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 132, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs)
+[rank0]:   File "/home/ubuntu/ejpark/embed_train/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs)
+[rank0]:   File "/home/ubuntu/ejpark/koe5_train/train.py", line 31, in compute_loss
+[rank0]:     'token_type_ids': t.zeros_like(input_ids)
+[rank0]: NameError: name 't' is not defined

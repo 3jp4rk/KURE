@@ -1,0 +1,8 @@
+{"time":"2024-12-12T04:41:07.705765162Z","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2024-12-12T04:41:07.705773012Z","level":"INFO","msg":"created symlink","path":"/home/ubuntu/ejpark/koe5_train/wandb/run-20241212_044107-728vn9yc/logs/debug-core.log"}
+{"time":"2024-12-12T04:41:08.218508148Z","level":"INFO","msg":"created new stream","id":"728vn9yc"}
+{"time":"2024-12-12T04:41:08.218535914Z","level":"INFO","msg":"stream: started","id":"728vn9yc"}
+{"time":"2024-12-12T04:41:08.2185515Z","level":"INFO","msg":"writer: Do: started","stream_id":"728vn9yc"}
+{"time":"2024-12-12T04:41:08.218555616Z","level":"INFO","msg":"sender: started","stream_id":"728vn9yc"}
+{"time":"2024-12-12T04:41:08.218563222Z","level":"INFO","msg":"handler: started","stream_id":"728vn9yc"}
+{"time":"2024-12-12T04:41:08.582310687Z","level":"INFO","msg":"Starting system monitor"}

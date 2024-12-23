@@ -1,0 +1,26 @@
+{
+  "dataset_revision": "016f35f9b961daaaa7a352e927084e3da662ac1f",
+  "task_name": "KorSTS",
+  "mteb_version": "1.24.1",
+  "scores": {
+    "test": [
+      {
+        "pearson": 0.806622,
+        "spearman": 0.801355,
+        "cosine_pearson": 0.806622,
+        "cosine_spearman": 0.801355,
+        "manhattan_pearson": 0.791671,
+        "manhattan_spearman": 0.801645,
+        "euclidean_pearson": 0.792361,
+        "euclidean_spearman": 0.802793,
+        "main_score": 0.801355,
+        "hf_subset": "default",
+        "languages": [
+          "kor-Hang"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1.864725112915039,
+  "kg_co2_emissions": null
+}

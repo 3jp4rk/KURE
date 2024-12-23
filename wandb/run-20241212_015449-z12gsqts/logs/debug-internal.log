@@ -1,0 +1,16 @@
+{"time":"2024-12-12T01:54:49.549256848Z","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2024-12-12T01:54:49.549264929Z","level":"INFO","msg":"created symlink","path":"/home/ubuntu/ejpark/koe5_train/wandb/run-20241212_015449-z12gsqts/logs/debug-core.log"}
+{"time":"2024-12-12T01:54:49.760437329Z","level":"INFO","msg":"created new stream","id":"z12gsqts"}
+{"time":"2024-12-12T01:54:49.760462905Z","level":"INFO","msg":"stream: started","id":"z12gsqts"}
+{"time":"2024-12-12T01:54:49.760477905Z","level":"INFO","msg":"writer: Do: started","stream_id":"z12gsqts"}
+{"time":"2024-12-12T01:54:49.76047776Z","level":"INFO","msg":"sender: started","stream_id":"z12gsqts"}
+{"time":"2024-12-12T01:54:49.760494424Z","level":"INFO","msg":"handler: started","stream_id":"z12gsqts"}
+{"time":"2024-12-12T01:54:50.126467378Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-12T01:54:53.011475592Z","level":"INFO","msg":"stream: closing","id":"z12gsqts"}
+{"time":"2024-12-12T01:54:53.011514803Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-12T01:54:53.012109687Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-12T01:54:53.809944805Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-12T01:54:54.083685505Z","level":"INFO","msg":"handler: closed","stream_id":"z12gsqts"}
+{"time":"2024-12-12T01:54:54.083706528Z","level":"INFO","msg":"writer: Close: closed","stream_id":"z12gsqts"}
+{"time":"2024-12-12T01:54:54.083717082Z","level":"INFO","msg":"sender: closed","stream_id":"z12gsqts"}
+{"time":"2024-12-12T01:54:54.083756381Z","level":"INFO","msg":"stream: closed","id":"z12gsqts"}

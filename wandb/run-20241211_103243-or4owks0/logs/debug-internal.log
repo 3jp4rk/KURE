@@ -1,0 +1,16 @@
+{"time":"2024-12-11T10:32:43.141513074Z","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2024-12-11T10:32:43.141522164Z","level":"INFO","msg":"created symlink","path":"/home/ubuntu/ejpark/koe5_train/wandb/run-20241211_103243-or4owks0/logs/debug-core.log"}
+{"time":"2024-12-11T10:32:43.85518066Z","level":"INFO","msg":"created new stream","id":"or4owks0"}
+{"time":"2024-12-11T10:32:43.855207894Z","level":"INFO","msg":"stream: started","id":"or4owks0"}
+{"time":"2024-12-11T10:32:43.855227005Z","level":"INFO","msg":"writer: Do: started","stream_id":"or4owks0"}
+{"time":"2024-12-11T10:32:43.855236384Z","level":"INFO","msg":"sender: started","stream_id":"or4owks0"}
+{"time":"2024-12-11T10:32:43.85524403Z","level":"INFO","msg":"handler: started","stream_id":"or4owks0"}
+{"time":"2024-12-11T10:32:44.152764377Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-11T10:32:44.238734149Z","level":"INFO","msg":"stream: closing","id":"or4owks0"}
+{"time":"2024-12-11T10:32:44.238780376Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-11T10:32:44.286501446Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-11T10:32:45.550536624Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-11T10:32:45.805332474Z","level":"INFO","msg":"handler: closed","stream_id":"or4owks0"}
+{"time":"2024-12-11T10:32:45.805349729Z","level":"INFO","msg":"writer: Close: closed","stream_id":"or4owks0"}
+{"time":"2024-12-11T10:32:45.805360162Z","level":"INFO","msg":"sender: closed","stream_id":"or4owks0"}
+{"time":"2024-12-11T10:32:45.805393257Z","level":"INFO","msg":"stream: closed","id":"or4owks0"}

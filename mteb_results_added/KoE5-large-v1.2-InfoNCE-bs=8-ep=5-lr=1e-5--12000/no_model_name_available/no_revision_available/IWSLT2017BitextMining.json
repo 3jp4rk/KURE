@@ -1,0 +1,35 @@
+{
+  "dataset_revision": "c18a4f81a47ae6fa079fe9d32db288ddde38451d",
+  "task_name": "IWSLT2017BitextMining",
+  "mteb_version": "1.24.1",
+  "scores": {
+    "validation": [
+      {
+        "precision": 0.803805,
+        "recall": 0.848692,
+        "f1": 0.817054,
+        "accuracy": 0.848692,
+        "main_score": 0.817054,
+        "hf_subset": "en-ko",
+        "languages": [
+          "eng-Latn",
+          "kor-Hang"
+        ]
+      },
+      {
+        "precision": 0.759197,
+        "recall": 0.82025,
+        "f1": 0.777481,
+        "accuracy": 0.82025,
+        "main_score": 0.777481,
+        "hf_subset": "ko-en",
+        "languages": [
+          "kor-Hang",
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 4.379578590393066,
+  "kg_co2_emissions": null
+}
